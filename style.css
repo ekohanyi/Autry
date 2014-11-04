@@ -1,4 +1,11 @@
 <!-- CSS Autry for HomePage-->
+body {
+  background-color: #4E5F6C;
+}
+.container{
+
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -12,6 +19,8 @@
 }
 
 .sideBar{
-  float: right;
-  clear:both;
+}
+
+.content div {
+  background-color: #4E5F6C;
 }
