@@ -11,17 +11,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-<body class="container">
+<body style="background-color: #ACC4C4"class="container">
 	<div class="row">
- 		<div class="col-md-12"> <!-- Header div -->
-			<div> <!-- header image and logo and links -->
+ 		<div> <!-- Header div -->
+			<div id="headerImage"> <!-- header image and logo and links -->
 				<div style="text-align: center"> <img src="http://theautry.org/images/gallery/albums/homeflash/route66.jpg"style="height:200px"/> </div>
 		</div>
 		<div class="nav">
 			<div class="container">
 
 	      <!-- Static navbar -->
-	      <nav class="navbar navbar-default" role="navigation">
+	      <nav id="navCustom" class="navbar navbar-default" role="navigation">
 	        <div class="container-fluid">
 	          <div class="navbar-header">
 	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,7 +34,7 @@
 	          </div>
 	          <div id="navbar" class="navbar-collapse collapse">
 	            <ul class="nav navbar-nav">
-	              <li class="active"><a href="#">Link</a></li>
+	              <li><a href="#">Link</a></li>
 	              <li><a href="#">Link</a></li>
 	              <li><a href="#">Link</a></li>
 	              <li class="dropdown">
@@ -51,7 +51,7 @@
 	              </li>
 	            </ul>
 	            <ul class="nav navbar-nav navbar-right">
-	              <li class="active"><a href="http://theautry.org/">The Autry</a></li>
+	              <li><a href="http://theautry.org/">The Autry</a></li>
 	              <li><a href="../navbar-static-top/">Subscribe</a></li>
 	            </ul>
 	          </div><!--/.nav-collapse -->
@@ -60,8 +60,10 @@
 			</div> <!-- nav bar -->
 		</div>
 
-		<div class="col-md-8">  <!-- Content Section-->
+  <div class="container" id="content"><!-- Content Section-->
 			 <!-- Carousel-->
+    <div class="row">
+      <div class="col-md-8">
 			<div class="container">
 				<div class="row" >
 				<div class="col-md-7" style="text-align: center">
@@ -113,27 +115,28 @@
 		        <span class="sr-only">Next</span>
 		      </a>
 		    </div><!-- /.carousel -->
-		</div>
-	</div>
-			<div class="row">
-				<div class="col-md-4" style="text-align: center" > <!-- article 1-->
+		    </div>
+	     </div>
+			<div id="grid" class="row">
+				<div class="col-md-4" > <!-- article 1-->
 					<img id="imgContent" src="http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/928366_674553789280260_399385012_n.jpg"/>
 				</div>
-				<div class="col-md-4" style="text-align: center"> <!-- article 2-->
+				<div class="col-md-4" > <!-- article 2-->
 					<img id="imgContent" src="http://photos-h.ak.instagram.com/hphotos-ak-xaf1/10707192_681912261904407_1634104551_n.jpg"/>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4" style="text-align: center"> <!-- article 3-->
+			<div id="grid" class="row">
+				<div class="col-md-4" > <!-- article 3-->
 					<img id="imgContent" src="http://photos-e.ak.instagram.com/hphotos-ak-xpf1/10349234_622155864543276_562745929_n.jpg"/>
 				</div>
-				<div class="col-md-4" style="text-align: center"> <!-- article 4-->
+				<div class="col-md-4" > <!-- article 4-->
 					<img id="imgContent" src="http://photos-d.ak.instagram.com/hphotos-ak-xpa1/926314_365292583614403_1623118920_n.jpg"/>
 				</div>
 			</div>
 		</div>
-		</div>
-		<div class="col-md-4"> <!-- Sidebar -->
+  </div>
+
+		<div class="col-md-4" id="sideBar"> <!-- Sidebar -->
 			<div> <!-- twitter/social media feed -->
 				            <a class="twitter-timeline"  href="https://twitter.com/TheAutry" data-widget-id="527900590903291904">Tweets by @TheAutry</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -143,6 +146,7 @@
 			<div> <!-- related links -->
 			</div>
 		</div>
+    </div>
 		<div class="col-md-12"> <!-- Footer -->
 		</div>
 	</div>

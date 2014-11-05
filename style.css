@@ -1,13 +1,16 @@
 <!-- CSS Autry for HomePage-->
-body {
-  background-color: #4E5F6C;
-}
+
 .container{
 
 }
 
+#headerImage{
+  padding-bottom: 25px;
+}
+
 #imgContent{
   width: 90%;
+  border-radius: 4px;
 }
 .nav a {
   color: #5a5a5a;
@@ -17,14 +20,27 @@ body {
   text-transform: uppercase;
 }
 
+#navCustom{
+  background-color: #4E5F6C;
+}
+#navCustom a{
+  color: #ACC4C4;
+}
 .nav li {
   display: inline;
 }
 
-.sideBar{
-
+#sideBar{
+  background-color: #FFF;
+  border-radius: 4px;
 }
 
-.content div {
-  background-color: #4E5F6C;
+#content{
+  padding-top:29px;
+  padding-left: 5px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+#grid div{
+  margin: 30px 15px 20px 5px;
 }
