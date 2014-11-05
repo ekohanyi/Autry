@@ -12,6 +12,8 @@
 	</head>
 
 <body style="background-color: #ACC4C4"class="container">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	<div class="row">
  		<div> <!-- Header div -->
 			<div id="headerImage"> <!-- header image and logo and links -->
@@ -66,7 +68,7 @@
       <div class="col-md-8">
 			<div class="container">
 				<div class="row" >
-				<div class="col-md-7" style="text-align: center">
+				<div class="col-md-8" style="text-align: center">
 		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 		      <!-- Indicators -->
 		      <ol class="carousel-indicators">
@@ -76,7 +78,7 @@
 		      </ol>
 		      <div class="carousel-inner" role="listbox">
 		        <div class="item active">
-		          <img src="http://theautry.org/images/gallery/albums/Exhibition/floral_journey__native_north_american_beadwork/floral-journey_lg.jpg" alt="First slide">
+		          <img id="carouselImage" src="http://theautry.org/images/gallery/albums/Exhibition/floral_journey__native_north_american_beadwork/floral-journey_lg.jpg" alt="First slide">
 		          <div class="container">
 		            <div class="carousel-caption">
 		              <h1>Article 1</h1>
@@ -86,21 +88,21 @@
 		          </div>
 		        </div>
 		        <div class="item">
-		          <img src="" alt="Second slide">
+		          <img id="carouselImage"src="http://route66.theautry.org/sites/default/files/pictures/RTE66_Web_2.jpg" alt="Second slide">
 		          <div class="container">
 		            <div class="carousel-caption">
-		              <h1>Another example headline.</h1>
-		              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		              <h1></h1>
+		              <p></p>
 		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
 		            </div>
 		          </div>
 		        </div>
 		        <div class="item">
-		          <img src="" alt="Third slide">
+		          <img id="carouselImage"src="http://theautry.org/images/gallery/albums/Exhibition/_em_kim_stringfellow___s_jackrabbit_homestead__em_/stringfellow_lg.jpg" alt="Third slide">
 		          <div class="container">
 		            <div class="carousel-caption">
-		              <h1>One more for good measure.</h1>
-		              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		              <h1></h1>
+		              <p></p>
 		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
 		            </div>
 		          </div>
@@ -122,7 +124,7 @@
 					<img id="imgContent" src="http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/928366_674553789280260_399385012_n.jpg"/>
 				</div>
 				<div class="col-md-4" > <!-- article 2-->
-					<iframe src="http://player.vimeo.com/video/94231347" height="325px" width="325px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe src="http://player.vimeo.com/video/94231347" height="325px" width="325px" style="border-radius: 4px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
 			<div id="grid" class="row">
@@ -142,14 +144,28 @@
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 			</div>
-
-			<div> <!-- related links -->
-			</div>
 		</div>
     </div>
 		<div class="col-md-12"> <!-- Footer -->
 		</div>
 	</div>
 
+<!--
+
+ IE10 viewport hack for Surface/desktop Windows 8 …
+
+-->
+
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<svg width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;">
+
+    <defs></defs>
+    <text x="0" y="23" style="font-weight:bold;font-size:23pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">
+
+        500x500
+
+    </text>
+
+</svg>
 </body>
 </html>
