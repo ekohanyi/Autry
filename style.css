@@ -9,10 +9,6 @@
   padding-top: 10px;
 }
 
-#imgContent{
-  width: 90%;
-  border-radius: 4px;
-}
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -43,15 +39,24 @@
 #sideBar{
   background-color: #FFF;
   border-radius: 4px;
+  width: 33%;
+  text-align: center;
 }
 
 #content{
   padding-top:29px;
-  padding-left: 5px;
-  margin-right: 5px;
+  padding-left: 7px;
+  padding-right: 19px;
+  padding-bottom: 20px;
   background-color: #FFFFFF;
   border-radius: 4px;
 }
+
+#imgContent{
+  width: 362px;
+  border-radius: 4px;
+}
+
 #grid div{
-  margin: 30px 10px 0px 5px;
+  padding: 20px 0px 0px 12px;
 }
