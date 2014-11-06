@@ -14,10 +14,25 @@
       padding-top: 10px;
     }
 
-    #imgContent{
-      width: 90%;
-      border-radius: 4px;
+    #headerImage div{
+      display: inline;
     }
+
+    #share-buttons img{
+    height: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top:10px;
+
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    }
+
+    #share-buttons a{
+      text-align: left;
+    }
+
     .nav a {
       color: #5a5a5a;
       font-size: 11px;
@@ -48,17 +63,26 @@
     #sideBar{
       background-color: #FFF;
       border-radius: 4px;
+      width: 33%;
+      text-align: center;
     }
 
     #content{
       padding-top:29px;
-      padding-left: 5px;
-      margin-right: 5px;
+      padding-left: 7px;
+      padding-right: 19px;
+      padding-bottom: 20px;
       background-color: #FFFFFF;
       border-radius: 4px;
     }
+
+    #imgContent{
+      width: 362px;
+      border-radius: 4px;
+    }
+
     #grid div{
-      margin: 30px 10px 0px 5px;
+      padding: 20px 0px 0px 12px;
     }
 
     </style>
@@ -78,7 +102,7 @@
      <div> <!-- Header div -->
       <div id="headerImage"> <!-- header image and logo and links -->
         <div> <img src="http://autry.com/images/homepage/anc_logo.gif"/> </div>
-    </div>
+      </div>
     <div class="nav">
       <div class="container">
 
@@ -115,6 +139,16 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="http://theautry.org/">The Autry</a></li>
                 <li><a href="../navbar-static-top/">Subscribe</a></li>
+                <li><div id="share-buttons">
+                <!-- Facebook -->
+                <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+                <!-- Twitter -->
+                <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com&text=Simple Share Buttons&hashtags=simplesharebuttons" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+                <!-- LinkedIn -->
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+                <!-- Pinterest -->
+                <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img src="http://www.simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" /></a>
+              </div></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div><!--/.container-fluid -->
@@ -184,7 +218,7 @@
           <img id="imgContent" src="http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/928366_674553789280260_399385012_n.jpg"/>
         </div>
         <div class="col-md-4" > <!-- article 2-->
-          <iframe src="http://player.vimeo.com/video/94231347" height="325px" width="325px" style="border-radius: 4px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="http://player.vimeo.com/video/94231347" height="362px" width="362px" style="border-radius: 4px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
       <div id="grid" class="row">

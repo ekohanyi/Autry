@@ -9,6 +9,25 @@
   padding-top: 10px;
 }
 
+#headerImage div{
+  display: inline;
+}
+
+#share-buttons img{
+height: 35px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top:10px;
+
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+#share-buttons a{
+  text-align: left;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -59,4 +78,10 @@
 
 #grid div{
   padding: 20px 0px 0px 12px;
+}
+.footer{
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
