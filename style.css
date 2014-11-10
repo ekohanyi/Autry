@@ -5,6 +5,7 @@
 }
 body{
   background: #ACC4C4 no-repeat top;
+  font-family: 'Lato', sans-serif;
 }
 
 #headerImage{
@@ -37,7 +38,7 @@ display: inline;
 
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
@@ -46,6 +47,7 @@ display: inline;
 #navCustom{
   margin-bottom: 10px;
   background-color: #4E5F6C;
+  font-family: 'Droid Sans', sans-serif;
 }
 #navCustom a{
   color: #ACC4C4;
