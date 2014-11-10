@@ -3,10 +3,17 @@
 .container{
 
 }
+body{
+  background: #ACC4C4 no-repeat top;
+}
 
 #headerImage{
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 5px;
+}
+
+#headerImage img{
+  border-radius: 4px;
 }
 
 #headerImage div{
@@ -37,6 +44,7 @@ display: inline;
 }
 
 #navCustom{
+  margin-bottom: 10px;
   background-color: #4E5F6C;
 }
 #navCustom a{
