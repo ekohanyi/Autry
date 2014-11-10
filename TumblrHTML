@@ -8,14 +8,24 @@
     .container{
 
     }
+    body{
+      background: #ACC4C4 no-repeat top;
+      font-family: 'Lato', sans-serif;
+    }
 
     #headerImage{
       padding-bottom: 10px;
-      padding-top: 10px;
+      padding-top: 5px;
+    }
+
+    #headerImage img{
+      border-radius: 4px;
+      width: 100%;
     }
 
     #headerImage div{
       display: inline;
+      width: 100%;
     }
 
     #share-buttons img{
@@ -35,13 +45,14 @@
 
     .nav a {
       color: #5a5a5a;
-      font-size: 11px;
+      font-size: 12px;
       font-weight: bold;
       padding: 14px 10px;
       text-transform: uppercase;
     }
 
     #navCustom{
+      margin-bottom: 10px;
       background-color: #4E5F6C;
     }
     #navCustom a{
@@ -67,10 +78,14 @@
       text-align: center;
     }
 
+    #sideBar div{
+      width: 100%;
+    }
+
     #content{
       padding-top:29px;
       padding-left: 7px;
-      padding-right: 19px;
+      padding-right: 15px;
       padding-bottom: 20px;
       background-color: #FFFFFF;
       border-radius: 4px;
@@ -84,6 +99,12 @@
     #grid div{
       padding: 20px 0px 0px 12px;
     }
+    .footer{
+      background-color: #FFF;
+      border-radius: 4px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
 
     </style>
     <meta charset="utf-8">
@@ -93,21 +114,24 @@
     <link href="carousel.css" rel="stylesheet">
     <!-- Bootstrap mobile first solution-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
   </head>
 
-<body style="background-color: #ACC4C4"class="container">
+<body class="container" style="background: #ACC4C4 no-repeat top;
+      font-family: 'Lato', sans-serif">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <div class="row">
-     <div> <!-- Header div -->
+     <div class="col-md-12 col-xs-12 col-sm-12"> <!-- Header div -->
       <div id="headerImage"> <!-- header image and logo and links -->
-        <div> <img src="http://autry.com/images/homepage/anc_logo.gif"/> </div>
+        <div> <img src="https://raw.githubusercontent.com/ekohanyi/Autry/master/AutryHeader1.png?token=AHlEOO5k0OHIgxOxhF8f--iN72S-M-OZks5UaXPUwA%3D%3D"/> </div>
       </div>
     <div class="nav">
       <div class="container">
 
         <!-- Static navbar -->
-        <nav id="navCustom" class="navbar navbar-default" role="navigation">
+        <nav id="navCustom" class="navbar navbar-default" role="navigation" style="font-family: 'Droid Sans', sans-serif">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -137,6 +161,11 @@
                 </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                </form>
                 <li><a href="http://theautry.org/">The Autry</a></li>
                 <li><a href="../navbar-static-top/">Subscribe</a></li>
                 <li><div id="share-buttons">
@@ -159,11 +188,11 @@
   <div class="container" id="content"><!-- Content Section-->
        <!-- Carousel-->
     <div class="row">
-      <div class="col-md-8">
-      <div class="container">
-        <div class="row" >
-        <div class="col-md-8" style="text-align: center">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="col-md-8 col-xs-12 col-sm-12">
+        <div class="container">
+          <div class="row" >
+            <div class="col-md-8 col-xs-12 col-sm-12" style="text-align: center">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -214,33 +243,42 @@
         </div>
        </div>
       <div id="grid" class="row">
-        <div class="col-md-4" > <!-- article 1-->
+        <div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 1-->
           <img id="imgContent" src="http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/928366_674553789280260_399385012_n.jpg"/>
         </div>
-        <div class="col-md-4" > <!-- article 2-->
+        <div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 2-->
           <iframe src="http://player.vimeo.com/video/94231347" height="362px" width="362px" style="border-radius: 4px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
       <div id="grid" class="row">
-        <div class="col-md-4" > <!-- article 3-->
+        <div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 3-->
           <img id="imgContent" src="http://photos-f.ak.instagram.com/hphotos-ak-xfa1/1739980_677540245631749_1875140726_n.jpg"/>
         </div>
-        <div class="col-md-4" > <!-- article 4-->
+        <div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 4-->
           <img id="imgContent" src="http://photos-h.ak.instagram.com/hphotos-ak-xaf1/10707192_681912261904407_1634104551_n.jpg"/>
         </div>
       </div>
     </div>
   </div>
 
-    <div class="col-md-4" id="sideBar"> <!-- Sidebar -->
-      <div> <!-- twitter/social media feed -->
-                    <a class="twitter-timeline"  href="https://twitter.com/TheAutry" data-widget-id="527900590903291904">Tweets by @TheAutry</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-      </div>
+    <div id="sideBar" class="col-md-4 col-xs-12 col-sm-12 container">
+        <div class = "row">
+          <blockquote class="blockquote-reverse">
+  <p>“Convergence is a way of seeing the large, evolving story of the American West as an interwoven tapestry of cultures and peoples, and that a way of understanding how their stories are connected to one another-and to us.”</p>
+  <footer>Michael Duchemin <cite title="Source Title"></cite></footer>
+</blockquote>
+        </div>
+      <!-- Sidebar --><!-- twitter/social media feed -->
+        <div class="row">
+                      <a class="twitter-timeline"  href="https://twitter.com/TheAutry" data-widget-id="527900590903291904">Tweets by @TheAutry</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
     </div>
     </div>
-    <div class="col-md-12"> <!-- Footer -->
+  </div>
+  <div class="footer">
+    <div class="container">
+      <p class="text-muted">The Autry Convergence, Copyright 2014</p>
     </div>
   </div>
 

@@ -15,10 +15,12 @@ body{
 
 #headerImage img{
   border-radius: 4px;
+  width: 100%;
 }
 
 #headerImage div{
   display: inline;
+  width: 100%;
 }
 
 #share-buttons img{
