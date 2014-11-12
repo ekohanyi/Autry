@@ -97,13 +97,17 @@ display: inline;
 }
 
 #imgContent{
-  width: 362px;
+  width: 96%;
   border-radius: 4px;
 }
 
 #grid div{
-  padding: 20px 0px 0px 12px;
+  padding:20px 0px 0px 12px;
 }
+
+
+
+
 .footer{
   background-color: #FFF;
   border-radius: 4px;

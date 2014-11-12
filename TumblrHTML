@@ -102,7 +102,7 @@
     }
 
     #imgContent{
-      width: 362px;
+      width: 96%;
       border-radius: 4px;
     }
 
