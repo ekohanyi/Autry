@@ -15,10 +15,13 @@
 
     #headerImage{
       padding-bottom: 10px;
+      margin-right: 20px;
       padding-top: 5px;
+      width: 100%;
     }
 
     #headerImage img{
+      text-align: center;
       border-radius: 4px;
       width: 100%;
     }
@@ -54,6 +57,8 @@
     #navCustom{
       margin-bottom: 10px;
       background-color: #4E5F6C;
+      font-family: 'Droid Sans', sans-serif;
+      margin-left: -16px;
     }
     #navCustom a{
       color: #ACC4C4;
@@ -74,7 +79,6 @@
     #sideBar{
       background-color: #FFF;
       border-radius: 4px;
-      width: 33%;
       text-align: center;
     }
 
@@ -82,10 +86,16 @@
       width: 100%;
     }
 
+    #sideBar div div{
+      width: 100%;
+      padding-left: 10px;
+    }
+
+
     #content{
       padding-top:29px;
       padding-left: 7px;
-      padding-right: 15px;
+      padding-right: 0px;
       padding-bottom: 20px;
       background-color: #FFFFFF;
       border-radius: 4px;
@@ -119,10 +129,10 @@
   </head>
 
 <body class="container" style="background: #ACC4C4 no-repeat top;
-      font-family: 'Lato', sans-serif">
+font-family: 'Lato', sans-serif">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <div class="row">
+  <div class="row" >
      <div class="col-md-12 col-xs-12 col-sm-12"> <!-- Header div -->
       <div id="headerImage"> <!-- header image and logo and links -->
         <div> <img src="https://raw.githubusercontent.com/ekohanyi/Autry/master/AutryHeader1.png?token=AHlEOO5k0OHIgxOxhF8f--iN72S-M-OZks5UaXPUwA%3D%3D"/> </div>
@@ -131,7 +141,7 @@
       <div class="container">
 
         <!-- Static navbar -->
-        <nav id="navCustom" class="navbar navbar-default" role="navigation" style="font-family: 'Droid Sans', sans-serif">
+        <nav id="navCustom" class="navbar navbar-default col-md-12" role="navigation" style="font-family: 'Droid Sans', sans-serif">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -144,11 +154,11 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Media</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Action</a></li>
                     <li><a href="#">Another action</a></li>
@@ -185,7 +195,7 @@
       </div> <!-- nav bar -->
     </div>
 
-  <div class="container" id="content"><!-- Content Section-->
+  <div class="container col-md-12" id="content"><!-- Content Section-->
        <!-- Carousel-->
     <div class="row">
       <div class="col-md-8 col-xs-12 col-sm-12">
@@ -261,22 +271,26 @@
     </div>
   </div>
 
-    <div id="sideBar" class="col-md-4 col-xs-12 col-sm-12 container">
+    <div class="col-md-4 col-xs-12 col-sm-12 container">
+      <div id="sideBar">
         <div class = "row">
           <blockquote class="blockquote-reverse">
-  <p>“Convergence is a way of seeing the large, evolving story of the American West as an interwoven tapestry of cultures and peoples, and that a way of understanding how their stories are connected to one another-and to us.”</p>
-  <footer>Michael Duchemin <cite title="Source Title"></cite></footer>
-</blockquote>
+            <p>“Convergence is a way of seeing the large, evolving story of the American West as an interwoven tapestry of cultures and peoples, and that a way of understanding how their stories are connected to one another-and to us.”</p>
+            <footer>Michael Duchemin <cite title="Source Title"></cite></footer>
+          </blockquote>
         </div>
-      <!-- Sidebar --><!-- twitter/social media feed -->
+      <!-- Sidebar -->
         <div class="row">
-                      <a class="twitter-timeline"  href="https://twitter.com/TheAutry" data-widget-id="527900590903291904">Tweets by @TheAutry</a>
+          <div> <!-- twitter/social media feed -->
+              <a class="twitter-timeline" href="https://twitter.com/TheAutry" data-widget-id="527900590903291904">Tweets by @TheAutry</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
         </div>
     </div>
     </div>
   </div>
-  <div class="footer">
+  <div class="footer col-md-12 col-sm-12 col-xs-12">
     <div class="container">
       <p class="text-muted">The Autry Convergence, Copyright 2014</p>
     </div>
