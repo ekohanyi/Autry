@@ -19,7 +19,7 @@
 	<div class="row" >
  		<div class="col-md-12 col-xs-12 col-sm-12"> <!-- Header div -->
 			<div id="headerImage"> <!-- header image and logo and links -->
-				<div> <img src="https://raw.githubusercontent.com/ekohanyi/Autry/master/AutryHeader1.png?token=AHlEOO5k0OHIgxOxhF8f--iN72S-M-OZks5UaXPUwA%3D%3D"/> </div>
+				<!--<div> <img src="https://raw.githubusercontent.com/ekohanyi/Autry/master/AutryHeader1.png?token=AHlEOO5k0OHIgxOxhF8f--iN72S-M-OZks5UaXPUwA%3D%3D"/> </div>-->
 			</div>
 		<div class="nav">
 			<div class="container">
@@ -39,36 +39,41 @@
 	          <div id="navbar" class="navbar-collapse collapse">
 	            <ul class="nav navbar-nav">
 	              <li><a href="AboutUs.html">About Us</a></li>
-	              <li><a href="#">Articles</a></li>
-	              <li><a href="#">Media</a></li>
+								<li class="dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <span class="caret"></span></a>
+															<ul class="dropdown-menu" role="menu">
+																<li><a href="#">Long Form</a></li>
+																<li><a href="#">Short Form</a></li>
+																<li><a href="#">Blog</a></li>
+																<li class="divider"></li>
+																<li class="dropdown-header">Nav header</li>
+																<li><a href="#">Separated link</a></li>
+																<li><a href="#">One more separated link</a></li>
+															</ul>
+								</li>
 	              <li class="dropdown">
-	                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-	                <ul class="dropdown-menu" role="menu">
-	                  <li><a href="#">Action</a></li>
-	                  <li><a href="#">Another action</a></li>
-	                  <li><a href="#">Something else here</a></li>
-	                  <li class="divider"></li>
-	                  <li class="dropdown-header">Nav header</li>
-	                  <li><a href="#">Separated link</a></li>
-	                  <li><a href="#">One more separated link</a></li>
-	                </ul>
-	              </li>
+																<a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <span class="caret"></span></a>
+																<ul class="dropdown-menu" role="menu">
+																	<li><a href="#">Photo Essays</a></li>
+																	<li><a href="#">Videos</a></li>
+																	<li><a href="#">Podcasts</a></li>
+																</ul>
+								</li>
 	            </ul>
 	            <ul class="nav navbar-nav navbar-right">
+
+	              <li><a href="http://theautry.org/">The Autry</a></li>
+	              <li><a href="../navbar-static-top/">Subscribe</a></li>
 								<form class="navbar-form navbar-left" role="search">
 									<div class="form-group">
 										<input type="text" class="form-control" placeholder="Search">
 									</div>
 								</form>
-	              <li><a href="http://theautry.org/">The Autry</a></li>
-	              <li><a href="../navbar-static-top/">Subscribe</a></li>
 								<li><div id="share-buttons">
 								<!-- Facebook -->
 								<a href="http://www.facebook.com/sharer.php?u=http://cs155test.tumblr.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
 								<!-- Twitter -->
 								<a href="http://twitter.com/share?url=http://cs155test.tumblr.com&text=The Autry: Convergence&hashtags=TheAutry" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
-								<!-- LinkedIn -->
-								<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://cs155test.tumblr.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
 								<!-- Instagram Custom-->
 								<a href="http://instagram.com/theautry" target="_blank"><img src="instagram-128 copy.png" alt="Instagram"/></a>
 							</div></li>
