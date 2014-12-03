@@ -86,7 +86,23 @@ display: inline;
   padding-left: 10px;
 }
 
+.articleSideBar{
+  width: 100%;
+}
 
+.articleSideBar img{
+  width: 60%;
+  text-align: right;
+}
+
+.articleSideBar1 img{
+  width: 40%;
+  text-align: right;
+}
+
+#articleContainer{
+  padding-right: 100px;
+}
 #content{
   padding-top:29px;
   padding-left: 7px;
@@ -105,8 +121,29 @@ display: inline;
   padding:20px 0px 0px 12px;
 }
 
+h3{
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
+h4{
+  padding-left: 10px;
+}
 
+#article{
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  margin-left: -30px;
+}
+
+#article h3,h4{
+  padding-left: 30px;
+}
+
+#article p{
+  padding-left: 40px;
+  width: 100%;
+}
 
 .footer{
   background-color: #FFF;
