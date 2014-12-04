@@ -3,7 +3,6 @@ Autry <br>
 System Requirements if you want to host locally: <br>
 Bootstrap: http://getbootstrap.com/ <br>
 ===== <br>
-
 This is a static HTML approach to the website, and thus each page acts more as a template for further pages. For instance, the article pages are all a template of a basic article page with specific things to signify blog-like constantly updating content vs. longer more permanent content. <br>
 <br>
 All of the individual pages are housed in this repository so they can be transferred to a different server later on, and are currently hosted on a tumblr site found here: http://cs155test.tumblr.com/<br>
