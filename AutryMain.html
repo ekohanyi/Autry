@@ -82,10 +82,10 @@
 
   <div class="container col-md-12" id="content"><!-- Content Section-->
 			 <!-- Carousel-->
-    <div class="row">
+    <div class="row" >
       <div class="col-md-8 col-xs-12 col-sm-12">
 				<div class="container">
-					<div class="row" >
+					<div class="row" style="margin-bottom: 20px">
 						<div class="col-md-8 col-xs-12 col-sm-12" style="text-align: center">
 		    			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		      <!-- Indicators -->
@@ -139,18 +139,48 @@
 	     </div>
 			<div id="grid" class="row">
 				<div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 1-->
-					<img  id="imgContent" src="http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/928366_674553789280260_399385012_n.jpg"/>
+					<div class="panel panel-primary" style="width: 100%" >
+						<div class="panel-heading" style="height: 30px">
+						</button>
+							<p class="panel-title" id="panelTitle"><a href="/article-long">Article 1</a>
+							</p>
+						</div>
+						<div class="panel-body">
+							<img  id="imgContent" src="http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/928366_674553789280260_399385012_n.jpg"/>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4 col-xs-12 col-sm-12"> <!-- article 2-->
-						<iframe src="http://player.vimeo.com/video/94231347" width="300px" height="300px"style="border-radius: 4px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div class="panel panel-primary" style="width: 100%" >
+						<div class="panel-heading" style="height: 30px">
+							<p class="panel-title" id="panelTitle"><a href="/media-page">Media Page</a></p>
+						</div>
+						<div class="panel-body">
+							<img id="imgContent" src="http://photos-b.ak.instagram.com/hphotos-ak-xap1/10693629_387081764777825_316096008_n.jpg"/>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id="grid" class="row">
 				<div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 3-->
-					<img id="imgContent" src="http://photos-f.ak.instagram.com/hphotos-ak-xfa1/1739980_677540245631749_1875140726_n.jpg"/>
+					<div class="panel panel-primary" style="width: 100%" >
+						<div class="panel-heading" style="height: 30px">
+							<p class="panel-title" id="panelTitle"><a href="/article-short">Article 2</a></p>
+						</div>
+						<div class="panel-body">
+							<img id="imgContent" src="http://photos-f.ak.instagram.com/hphotos-ak-xfa1/1739980_677540245631749_1875140726_n.jpg"/>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4 col-xs-12 col-sm-12" > <!-- article 4-->
-					<img id="imgContent" src="http://photos-h.ak.instagram.com/hphotos-ak-xaf1/10707192_681912261904407_1634104551_n.jpg"/>
+					<div class="panel panel-primary" style="width: 100%" >
+						<div class="panel-heading" style="height: 30px">
+							<p class="panel-title" id="panelTitle"><a href="/blog-example">Article 3</a></p>
+						</div>
+						<div class="panel-body">
+							<img id="imgContent" src="http://photos-h.ak.instagram.com/hphotos-ak-xaf1/10707192_681912261904407_1634104551_n.jpg"/>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -198,5 +228,9 @@
     </text>
 
 </svg>
+$(function () {
+	$('[data-toggle="popover"]').popover()
+})
+$('#example').tooltip(options)
 </body>
 </html>

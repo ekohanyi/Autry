@@ -113,13 +113,17 @@ display: inline;
 }
 
 #imgContent{
-  width: 96%;
-  border-radius: 4px;
+  width: 100%;
 }
 
-#grid div{
-  padding:20px 0px 0px 12px;
-}
+#grid div div{
+  padding:0px 0px 0px 0px;
+ }
+
+ #panelTitle{
+  text-align: center;
+  font-size: 20px;
+ }
 
 h3{
   padding-top: 10px;
